@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>face book Register</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="register.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body  style="background-color:aliceblue;">
+
+    <!-- head -->
+    <div class="container mt-5">
+        <div class="row">
+         <div class="col"><h1 class="text-center text-lg-center text-sm-center text-primary" style="font-weight: bolder;font-family: inherit; " >face book </h1></div>
+       </div>
+    </div>
+<!-- form -->
+<form action="#" class="container border border-primary rounded-1 mt-2" style="background-color:#ffffff;width:450px ; " >
+        <h3 class="text-center text-lg-center text-sm-center text-dark"> create a new account</h3>
+        <h5 class="text-center text-lg-center text-sm-center text-secondary">it's quick and easy.</h5>
+
+                <div class="row  border-top border-2">
+
+                      <div class="col form-group m-1">
+                          <input type="text" class="form-control first_name" id="username" placeholder="first name">
+                          <div class="alert alert-danger custom-alert" style="padding: 5px 10px ;font-size: small; "> must be more than 3 char </div>
+                      </div>
+
+                      <div class="col form-group m-1">
+                          <input type="text" class="form-control sur_name"  placeholder="sur name">
+                          <div class="alert alert-danger custom-alert" style="padding: 5px 10px ;font-size: small; "> must be more than 3 char </div>
+                      </div>
+
+                      <div class="form-group m-1">
+                          <input type="email" class="form-control email" id="email" placeholder="your email">
+                          <div class="alert alert-danger custom-alert" style="padding: 5px 10px ;font-size: small; "> must be a-z@0-9a-z </div>
+                      </div>
+
+                      <div class="form-group m-1">
+                          <input type="password" class="form-control password" id="Password"  placeholder="new password">
+                          <div class="alert alert-danger custom-alert" style="padding: 5px 10px ;font-size: small; "> must be more 8char </div>
+                      </div>
+                      
+                          <small class="text-muted m-3">Date of birth <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                          </svg> </small>
+                        
+                       
+                          <select class="form-select form-select-lg col m-2">
+                            <option selected>day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+
+                          </select>
+
+                          <select class="form-select form-select-lg col m-2">
+                            <option selected>month</option>
+                            <option value="1">jun</option>
+                            <option value="2">feb</option>
+                            <option value="3">mars</option>
+                            <option value="4">apr</option>
+                            <option value="5">mai</option>
+                            <option value="6">jun</option>
+                            <option value="7">jule</option>
+                            <option value="8">aug</option>
+                            <option value="9">sep</option>
+                            <option value="10">oct</option>
+
+                          </select>
+                          <select class="form-select form-select-lg col m-2">
+                            <option selected>year</option>
+                            <option value="1">2000</option>
+                            <option value="2">2001</option>
+                            <option value="3">2002</option>
+                            <option value="4">2003</option>
+                            <option value="5">2004</option>
+                            <option value="6">2005</option>
+                            <option value="7">2006</option>
+                            <option value="8">2007</option>
+                            <option value="9">2008</option>
+                            <option value="10">2009</option>
+
+                          </select>
+                          <small class="text-muted m-3">Gender <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247m2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                          </svg> </small>
+
+                         
+                          <div class="form-check col m-2">
+                            <input class="form-check-input" type="radio" name="gender" id="r1" checked>
+                            <label class="form-check-label" for="r1">
+                            <h5>Male</h5> 
+                            </label>
+                          </div>
+                          <div class="form-check col m-2">
+                            <input class="form-check-input" type="radio" name="gender" id="r2">
+                            <label class="form-check-label" for="r2">
+                              <h5>Female</h5>
+                            </label>
+                          </div>
+                          <div class="form-check col m-2">
+                            <input class="form-check-input" type="radio" name="gender" id="r3">
+                            <label class="form-check-label" for="r3">
+                              <h5>Custom</h5>
+                            </label>
+                          </div>
+                           <p>People who use our service may have uploaded your contact information to <br> Facebook. <a href=""> Learn more.</a> <br>
+
+                            By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies . <a href="">Policy</a>  <br> You may receive SMS notifications from us and can opt out at any time.</p>
+                              <div class="col m-2">
+                            <button   type="submit" id="signup" style="margin-left: 140px; width:40%; background-color: #00a400; color: #ffffff; font-size: 18px;font-weight:bold; border-radius: 9px; height: 36px;" >Sign up</button>
+                              </div>
+                </div>
+                
+
+                    
+
+
+
+
+               
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="registervalid.js"></script>
+
+</body>
+</html>
